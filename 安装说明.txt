@@ -28,10 +28,13 @@
 
     ...\Stranded Deep\Stranded_Deep_Data\BepInEx.New\plugins\
 
-    StrandedDeepPlus.dll      游戏优化本体
-    MultiplayerPlus.dll       局域网联机用
+    StrandedDeepPlus-1.4.3.dll   游戏优化本体（文件名带版本号，更新后数字会变）
+    MultiplayerPlus.dll             局域网联机用
 
 不用改名，不用建子文件夹，不用手动写配置。
+
+★ 升级时：先删掉 plugins 里旧的 StrandedDeepPlus-*.dll，再放新的。
+  两个版本同时留着，游戏只会加载其中一个（往往是旧的那个）。
 
 
 四、第三步：确认
@@ -69,7 +72,7 @@
 
 六、卸载
 --------
-删掉 plugins\ 里的 StrandedDeepPlus.dll 即可，游戏恢复原样。
+删掉 plugins\ 里的 StrandedDeepPlus-*.dll（可能只有一个）即可，游戏恢复原样。
 想连汉化一起还原：Steam → 右键游戏 → 属性 → 已安装文件 → 验证文件完整性。
 
 
