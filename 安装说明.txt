@@ -28,7 +28,7 @@
 
     ...\Stranded Deep\Stranded_Deep_Data\BepInEx.New\plugins\
 
-    StrandedDeepPlus-1.4.3.dll   游戏优化本体（文件名带版本号，更新后数字会变）
+    StrandedDeepPlus-1.4.5.dll   游戏优化本体（文件名带版本号，更新后数字会变）
     MultiplayerPlus.dll             局域网联机用
 
 不用改名，不用建子文件夹，不用手动写配置。
